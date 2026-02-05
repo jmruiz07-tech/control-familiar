@@ -19,8 +19,8 @@ const LONG_REWARDS = [
 let state = JSON.parse(localStorage.getItem("familyApp")) || {
   lastReset: new Date().toDateString(),
   children: [
-    { name: "Niña 1", dailyPoints: 0, totalPoints: 0 },
-    { name: "Niña 2", dailyPoints: 0, totalPoints: 0 }
+    { name: "Zaira", dailyPoints: 0, totalPoints: 0 },
+    { name: "Clara", dailyPoints: 0, totalPoints: 0 }
   ],
   pending: []
 };
@@ -143,3 +143,4 @@ function renderAll() {
 
 resetDailyIfNeeded();
 renderAll();
+
